@@ -3,3 +3,5 @@ language: perl
 perl:
   - "5.26"
   - "5.12"
+before_install:
+  - apt-get -y install redis-server

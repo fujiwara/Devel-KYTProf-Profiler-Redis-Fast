@@ -42,16 +42,30 @@
       },
       "runtime" : {
          "requires" : {
+            "Devel::KYTProf" : "0.99",
+            "Redis::Fast" : "0",
             "perl" : "5.012001"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.98"
+            "Test::More" : "0.98",
+            "Test::TCP" : "0"
          }
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/fujiwara/Devel-KYTProf-Profiler-Redis-Fast/issues"
+      },
+      "homepage" : "https://github.com/fujiwara/Devel-KYTProf-Profiler-Redis-Fast",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/fujiwara/Devel-KYTProf-Profiler-Redis-Fast.git",
+         "web" : "https://github.com/fujiwara/Devel-KYTProf-Profiler-Redis-Fast"
+      }
+   },
    "version" : "0.01",
    "x_authority" : "cpan:FUJIWARA"
 }
